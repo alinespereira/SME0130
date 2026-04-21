@@ -1,0 +1,26 @@
+[project]
+name = "redes-complexas"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Aline", email = "line.asramos@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "ipykernel>=7.2.0",
+    "matplotlib>=3.10.8",
+    "nbformat>=5.10.4",
+    "networkx>=3.6.1",
+    "numpy>=2.4.4",
+    "pandas>=3.0.2",
+    "scipy>=1.17.1",
+    "seaborn>=0.13.2",
+]
+
+[project.scripts]
+redes-complexas = "redes_complexas:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
